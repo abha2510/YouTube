@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+#container {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+
+  form {
+    width: 10%;
+  }
+  body{
+    background-color: black;
+    color: white;
+   }
+  
+   
+    input{
+    margin-top: 15%;
+    padding:15px;
+    border-radius: 10px;
+    
+
+   }
+   #register-form{
+    margin-left: 300px;
+    margin-top: 20px;
+   }
+   button{
+    margin-top:20px;
+    width:22%;
+    border-radius: 10px;
+    background-color: rgb(255, 16, 16);
+    padding: 15px;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+   }
+   button:hover{
+    background-color: rgb(252, 252, 252);
+    
+   }
+   
+ #login-form{
+    margin-right:20px;
+ }
+ #login-form button{
+    width:65%
+ }
+ #login-form input{
+       margin-top: 15px;
+ }
+ #g{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+ }
+ #logo{
+  padding:13px;
+ 
+  
+ }
+ #logo a{
+  text-decoration: none;
+  color: black
+ }
+ #youtube-logo{
+   color:#F90201;
+   padding-right: 0.2rem;
+   margin-left: 20px;
+  
+}
+a{
+text-decoration: none;
+color: white;
+font-family: Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="video.css">
+    <script src="https://kit.fontawesome.com/137ed893e2.js" crossorigin="anonymous"></script>
+</head>
+<body onload="playVideo()">
+    <div id="navbar">
+        <a href="#" class="menu-bars" id="show-menu">
+          <i class="fas fa-bars"></i>
+        </a>
+        <a href="/index.html"><h1><i class="fab fa-youtube" id="youtube-logo"></i>YouTube</h1></a>
+            <input type="text" id="query" placeholder="Search here"/>
+            <button onclick="searchVideos()">Search</button>
+            <div id="img">
+              <img src="https://th.bing.com/th/id/OIP.a4mLzDQMdh-WC8zzLpMvvwHaHa?pid=ImgDet&w=221&h=221&c=7&dpr=1.25" alt="">
+              <img src="https://th.bing.com/th/id/OIP.wMAMyrDMcfynkLB8cu5hTQHaHa?w=212&h=212&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="">
+              <a href="auth.html"><img src="https://th.bing.com/th/id/OIP.SXOp7NxesZlP8k8TvveulAHaHa?pid=ImgDet&w=221&h=221&c=7&dpr=1.25" alt=""></a>
+              
+            </div>
+         </div>
+         <nav id="nav-menu">
+          <ul class="nav-menu-items">
+            <div id="navbar-toggle">
+              <a href="#" class="menu-bars" id="hide-menu">
+                <i class="fas fa-bars nav-icon"></i>
+              </a>
+              <a href="#"><h1><i class="fab fa-youtube" id="youtube-logo"></i>YouTube</h1></a>
+            
+            </div>
+            <hr/>
+            <div class="nav-section">
+              <li class="nav-text"><a href="index.html"><i class="fas fa-home nav-icon"></i>Home</a></li>
+              <li class="nav-text"><a href="#"><i class="fas fa-fire nav-icon"></i>Trending</a></li>
+              <li class="nav-text"><a href="#"><i class="fab fa-youtube nav-icon"></i>Subscription</a></li>
+
+            </div>
+            <hr/>
+            <div class="nav-section">
+              <li class="nav-text"><a href="#"><i class="fas fa-play-circle nav-icon"></i>Librabry</a></li>
+              <li class="nav-text"><a href="#"><i class="fas fa-history nav-icon"></i>Histroy</a></li>
+              <li class="nav-text"><a href="#"><i class="fas fa-clock nav-icon"></i>Watch Later</a></li>
+
+            </div>
+          </ul>
+         </nav>
+         <div id="container"></div>
+    <div id="main">
+        <div id="video_details">Video Detail</div>
+        <div id="recommendation">Recommendation</div>
+    </div>
+</body>
+</html>
+<script src="video.js"></script>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/137ed893e2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <body>
+      <a href="/index.html"><h1><i class="fab fa-youtube" id="youtube-logo"></i>YouTube</h1></a>
+        <div id="container">
+          <div id="register-form">
+            <h1>Register</h1>
+            <form>
+              <input type="text" id="name" placeholder="Name" />
+              <input type="text" id="email" placeholder="Email" />
+              <input type="text" id="username" placeholder="Username" />
+              <input type="password" id="password" placeholder="Password" />
+              <input type="number" id="mobile" placeholder="Mobile" />
+              <input type="text" id="description" placeholder="Description" />
+            </form>
+    
+            <button onclick="Register()">Signup</button>
+          </div>
+    
+          <div id="login-form">
+            <h1>Login</h1>
+            <form>
+              <input type="text" id="login-username" placeholder="Username" />
+    
+              <input type="number" id="login-password" placeholder="Password" />
+            </form>
+    
+            <button onclick="Login()" id="logo" ><a href="index.html"></a>Login</button>
+          </div>
+        </div>
+</body>
+</html>
+<script src="auth.js"></script>

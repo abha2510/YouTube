@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:20px;
+  color: #fff;
+}
+
+hr{
+background-color: #464646;
+height:1px;
+border:none;
+
+}
+#navbar{
+margin-top: -20px;
+position: fixed;
+background-color: #212121;
+height:100px;
+ display: flex;
+/* justify-content: center; */
+align-items: center; 
+gap:22px;
+width: 100%;
+}
+.menu-bars{
+margin-left: 2rem;
+font-size: 2rem;
+color: #fff;
+
+}
+#nav-menu{
+background-color: #212121;
+width: 250px;
+height:100vh;
+display: flex;
+justify-content: center;
+position: fixed;
+top: 0;
+/* left: -100%; */
+transition: 850ms;
+}
+#nav-menu.active{
+left:0;
+transition:350ms ;
+}
+#nav-text{
+display: flex;
+justify-content: start;
+list-style-type:disc;
+height:50px;
+padding: 1rem;
+
+}
+.nav-text a{
+text-decoration: none;
+color: #f5f5f5;
+font-size: 1.4rem;
+margin-left: 1rem;
+}
+.nav-text:hover{
+background-color: #5b5656;
+cursor: pointer;
+}
+.nav-menu-items{
+width:100%;
+}
+.nav-icon{
+padding-right: 1rem;
+color:#909090
+}
+#youtube-logo{
+color:#F90201;
+padding-right: 0.2rem;
+}
+#navbar-toggle{
+background-color: #212121;
+width: 100%;
+height:100px;
+display:flex;
+justify-content: start;
+align-items: center;
+}
+#navbar-toggle h1{
+    color: white;
+}
+#navbar h1{
+color: #fff;
+font-family:'Oswald',sans-serif;
+
+}
+ a{
+    text-decoration: none;
+}
+.fab-bars{
+color: #fff;
+}
+.nav-section{
+height:200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 25px;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+#navbar input{
+    margin-left:180px;
+    padding:15px;
+    width:40%;
+    font-size: large;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#btn{
+    padding:12px;
+    border-radius: 10px;
+    font-size: large;
+    background-color:white;
+    color:black;
+   
+}
+#btn:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+h4,h5{
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+}
+h5{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#img{
+    border:0px solid white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:70%; 
+     gap:10px
+}
+#img img{
+    height:70px;
+    width:70%;
+    border-radius: 60%;
+}
+#img{
+    border:0px solid white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:1000px;
+    gap:10px
+}
+#img img{
+    height:50px;
+    width:90%;
+    border-radius: 60%;
+}
+#trend{
+    color: #fff;
+    text-decoration: none;
+}
